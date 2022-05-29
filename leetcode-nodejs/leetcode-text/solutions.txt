@@ -1,1 +1,4 @@
-0001, Two Sum : 
+problem # , problem name : return value , algorithms used
+
+0001, Two Sum : [int,int] , Linear Time scan of array with memo 
+0002, Add Two Nums: Listnode , Linear Time linked List algorithm (Ugly implementation) 

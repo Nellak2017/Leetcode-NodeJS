@@ -1,6 +1,6 @@
-const twoSum = require('../src/Two_Sum_0001');
+const twoSum = require('../src/0001');
 
-describe("Two Sum should return the correct output given ([int],target:int)", () => {
+describe("0001 should return the correct output given ([int],target:int)", () => {
     describe("Should have proper return value", () => {
         const goodArrIn1 = [2, 7, 11, 15];
         const goodTarget1 = 9;

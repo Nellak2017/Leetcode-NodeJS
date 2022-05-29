@@ -1,4 +1,3 @@
-
 const twoSum = (nums, target) => {
     /** 
      * @param {number[]} nums
@@ -14,5 +13,4 @@ const twoSum = (nums, target) => {
     }
     return [];                         // If there is no solution, return an empty array
 }
-
 module.exports = twoSum;
