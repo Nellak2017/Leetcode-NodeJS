@@ -19,7 +19,8 @@ describe('threeSumClosest', () => {
 			nums: [4,0,5,-5,3,3,0,-4,-5],
 			target: -2,
 			expected: -2,
-		}
+		},
+		
 	]
 
 	testCases.forEach(({ nums, target, expected }) => {
