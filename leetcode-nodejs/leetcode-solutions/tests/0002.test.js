@@ -10,7 +10,7 @@ describe("0002 should return the correct output given (ListNode, ListNode)", () 
         const goodRes1 = addTwoNums(goodArr1In1, goodArr2In1)
 
         it("Should return a List Node", () => {
-            expect(goodRes1 instanceof ListNode).toBeTruthy();
+            expect(goodRes1 instanceof ListNode).toBeTruthy()
         })
 
         /*

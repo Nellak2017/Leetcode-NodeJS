@@ -1,0 +1,2 @@
+const strStr = (h, n) => !n.length ? 0 : [...h.slice(0, h.length - n.length + 1)].map((_, i) => i).find(i => [...n].every((c, j) => h[i + j] === c)) ?? -1
+// TODO: Clean up Code base and make more consistent
